@@ -1,0 +1,28 @@
+.hello{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background-color: rgb(88, 88, 85);
+    transform: scaleY(1);
+    color: white;
+    text-align: center;
+}
+
+.bye {
+    width: 100px;
+height: 100px;
+margin: 100px;
+background-color: rgb(88, 88, 85);
+transform: skew(20deg, 30deg);
+color: white;
+}
+
+.gogo {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background-color: rgb(88, 88, 85);
+    transform: matrix(1,2,1,1,2,3);
+    color: white;
+}
+

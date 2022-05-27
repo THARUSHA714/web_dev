@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 20px;
+    transition: width 2s, height 2s, background-color 2s, color 2s;
+    transition-timing-function: ease;
+    text-align: center;
+    transition-delay: 1s;
+}
+
+div:hover{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(50, 133, 105);
+    color: white;
+}
